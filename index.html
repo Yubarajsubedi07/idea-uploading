@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar">
+                              Idea Shareing</h1>
+
+
+
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#videos">Videos</a>
+            <a href="#profile">Profile</a>
+            <a href="#settings">Settings</a>
+        </nav>
+    </div>
+    <div id="main-content">
+        <div id="home" class="page">
+            <div id="post-box">
+                <textarea id="postInput" placeholder="What's on your mind?"></textarea>
+                <input type="file" id="imageUpload" accept="image/*">
+                <button id="postButton">Post</button>
+            </div>
+            <div id="newsFeed"></div>
+        </div>
+        <div id="videos" class="page hidden">
+            <h2>Video Section</h2>
+            <video src="https://youtu.be/aEAytj2_vKI?feature=shared"></video>
+            <video src="https://youtu.be/aEAytj2_vKI?feature=shared"></video>
+            <link rel="stylesheet" href="c:\Users\dell\Downloads\fffffffffffffffff.htm">
+            <p>"comming soon..</p>
+        </div>
+    </div>
+    <div id="profile" class="page hidden">
+        <h2>Profile Section</h2>
+        <div id="profile-info">
+            <img src="c:\Users\dell\OneDrive\Pictures\Art\FB_IMG_15840236687356614.jpg" alt="Profile Picture" id="profile-pic">
+            <h3 id="profile-username">yubarajsubedi</h3>
+            <p id="profile-email">subediyubaraj653@gmail.com</p>
+            <button id="shareProfileButton">Share Profile</button>
+        </div>
+        </div>
+        <div id="settings" class="page hidden">
+            <h2>Settings</h2>
+            <form id="settingsForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="subediyubaraj"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="subediyubaraj653@gmail.com"><br><br>
+                
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                
+                <h3>Notification Settings</h3>
+                <label for="emailNotifications">Email Notifications:</label>
+                <input type="checkbox" id="emailNotifications" name="emailNotifications" checked><br><br>
+                
+                <label for="smsNotifications">SMS Notifications:</label>
+                <input type="checkbox" id="smsNotifications" name="smsNotifications"><br><br>
+                
+                <h3>Privacy Settings</h3>
+                <label for="profileVisibility">Profile Visibility:</label>
+                <select id="profileVisibility" name="profileVisibility">
+                    <option value="public">Public</option>
+                    <option value="friends">Friends</option>
+                    <option value="private">Private</option>
+                </select><br><br>
+                
+                <button type="submit">Save Changes</button>
+            </form>
+            <div id="settingsMessage"></div>
+            
+            <h3>Activity Log</h3>
+            <div id="activityLog">
+                <p>No recent activities.</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
